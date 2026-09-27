@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="icon" type="image/png" href="search.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial;
+        }        
+    </style>
+</head>
+<body>
+    <header class="site-nav">
+        <a class="site-logo" href="#header-section">Sakenov Aldiyar</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid-layout">Grid</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="assignment-section" id="flexbox">
+        <h2>Part 1: Flexbox</h2>
+        <h3>Task 0: Navigation Bar</h3>
+        <p>The page header has a logo on the left and links on the right.</p>
+
+        <h3>Task 1: Card Row</h3>
+        <div class="card-row">
+            <article class="card">
+                <img src="images/1.jpeg" alt="Photo 1">
+                <h4>Web Development</h4>
+                <p>I like learning how websites are made.</p>
+                <button type="button">Read more</button>
+            </article>
+            <article class="card">
+                <img src="images/2.jpeg" alt="Photo 2">
+                <h4>Travel</h4>
+                <p>I enjoy visiting new places.</p>
+                <button type="button">Read more</button>
+            </article>
+            <article class="card">
+                <img src="images/3.jpeg" alt="Photo 3">
+                <h4>Reading</h4>
+                <p>I like reading books in my free time.</p>
+                <button type="button">Read more</button>
+            </article>
+        </div>
+    </section>
+
+    <section class="assignment-section" id="grid-layout">
+        <h2>Part 2: Grid System</h2>
+        <h3>Task 2: Page Layout with Grid Areas</h3>
+        <div class="grid-layout-demo">
+            <header class="grid-header">Header</header>
+            <aside class="grid-sidebar">Sidebar</aside>
+            <div class="grid-main">
+                <h4>Main Content</h4>
+                <p>The main content is on the right side of the sidebar.</p>
+            </div>
+            <footer class="grid-footer">Footer</footer>
+        </div>
+    </section>
+
+    <section class="assignment-section" id="gallery">
+        <h2>Task 3: Image Gallery</h2>
+        <p>Hover over a picture to see its caption.</p>
+        <div class="image-gallery">
+            <figure class="gallery-picture">
+                <img src="images/4.jpeg" alt="Photo 4">
+                <figcaption>Photo 4</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/5.jpeg" alt="Photo 5">
+                <figcaption>Photo 5</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/6.jpeg" alt="Photo 6">
+                <figcaption>Photo 6</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/7.jpeg" alt="Photo 7">
+                <figcaption>Photo 7</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/8.jpeg" alt="Photo 8">
+                <figcaption>Photo 8</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/9.jpeg" alt="Photo 9">
+                <figcaption>Photo 9</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/10.jpeg" alt="Photo 10">
+                <figcaption>Photo 10</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/11.jpeg" alt="Photo 11">
+                <figcaption>Photo 11</figcaption>
+            </figure>
+            <figure class="gallery-picture">
+                <img src="images/12.jpeg" alt="Photo 12">
+                <figcaption>Photo 12</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="assignment-section" id="portfolio">
+        <h2>Part 3: Flexbox and Grid</h2>
+        <h3>Task 4: Portfolio Page</h3>
+        <div class="portfolio-layout">
+            <header class="portfolio-header">
+                <strong>My Portfolio</strong>
+                <nav>
+                    <ul class="portfolio-links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="projects" id="projects">
+                <h4>My Projects</h4>
+                <div class="project-row">
+                    <article class="project-card">
+                        <h4>Profile Page</h4>
+                        <p>This is my personal webpage.</p>
+                        <a href="#header-section">View profile</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Photo Gallery</h4>
+                        <p>This page has nine pictures.</p>
+                        <a href="#gallery">View gallery</a>
+                    </article>
+                </div>
+            </main>
+            <aside class="portfolio-sidebar" id="about">
+                <h4>About Me</h4>
+                <p>I am a second-year student learning web development.</p>
+            </aside>
+            <footer class="portfolio-footer">Sakenov Aldiyar</footer>
+        </div>
+    </section>
+
+    <div id="footer-section">
+        <p> 2026 Student Work</p>
+    </div>
+
+</body>
+</html>
