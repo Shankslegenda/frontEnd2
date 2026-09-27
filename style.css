@@ -70,6 +70,7 @@
     padding: 15px;
 }
 
+
 .grid-header {
     grid-area: header;
     background-color: lightgreen;
