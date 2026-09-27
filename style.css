@@ -70,7 +70,6 @@
     padding: 15px;
 }
 
-
 .grid-header {
     grid-area: header;
     background-color: lightgreen;
@@ -105,8 +104,8 @@
 .gallery-picture img {
     display: block;
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .gallery-picture figcaption {
